@@ -1,17 +1,13 @@
-<style>
- label {
-   width: 100px;
-   display: inline-block;
- }
-</style>
-<form method="post">
- <label for="fname">Naam</label>
- <input type="text" name="field_firstname" id="fname" placeholder="Voornaam" required />
- <input type="text" name="field_infixname" placeholder="Tussenvoegsel" />
- <input type="text" name="field_lastname" placeholder="Achternaam" required /><br>
- <label for="email">E-mailadres</label>
- <input type="email" name="field_email" id="email" placeholder="E-mailadres" required /><br>
- <label for="passwd">Wachtwoord</label>
- <input type="password" name="field_password" id="passwd" placeholder="Wachtwoord" required /><br>
- <input type="submit" name="submit" value="Registreren" />
-</form>
+<?php
+  require "header.php";
+ ?>
+
+
+  <main>
+    <p>You are logged out</p>
+    <p>You are logged in</p>
+  </main>
+
+<?php
+  require "footer.php"
+ ?>
